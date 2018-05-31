@@ -1,0 +1,31 @@
+{
+  "name": "color-bayan",
+  "version": "1.0.0",
+  "description": "A web page of Bayan",
+  "main": "index.html",
+  "author": "",
+  "license": "ISC",
+
+
+  "devDependencies": {
+    "@types/node": "^7.0.18",
+    "browserify": "^14.3.0",
+    "express": "^4.15.3",
+    "gulp": "^3.9.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-typescript": "^3.1.6",
+    "gulp-uglify": "^2.1.2",
+    "tsify": "^3.0.1",
+    "typescript": "^2.3.2",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "@types/jquery": "^2.0.45",
+    "jquery": "^3.2.1"
+  },
+  "dependencies": {
+    "gulp-livereload": "^3.8.1",
+    "gulp-nodemon": "^2.2.1"
+  }
+}

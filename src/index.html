@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Bayan</title>
+    <link rel=stylesheet type="text/css" href="color-bayan.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+    <script src="bundle.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="nav-extended blue darken-3">
+        <div class="nav-wrapper blue">
+          <a class="brand-logo center">Color Bayan</a>
+        </div>
+        <div class="nav-content container">
+          <ul class="tabs tabs-transparent">
+            <li class="tab"><a href="#Bayan">Bayan</a></li>
+            <li class="tab"><a href="#Piano">Piano</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main id="main" class="valign-wrapper">
+      <div id="loading" class="invisible">
+        <div class="progress">
+          <div class="indeterminate"></div>
+        </div>
+      </div>
+      <div id="Bayan" class="col s12"></div>
+      <div id="Piano" class="col s12"></div>
+    </main>
+    <footer class="page-footer blue">
+      <div class="footer-copyright">
+      <div class="container">
+      © 2017 Color Bayan
+      </div>
+      </div>
+    </footer>
+    <div id="playButton" class="fixed-action-btn horizontal click-to-toggle">
+      <a id="realButton" class="btn-floating btn-large waves-effect waves-light red"><i id="playArrow" class="material-icons">play_arrow</i></a>
+      <ul>
+        <li class="playProgress" style="margin: 0">
+          <div class="progress" style="margin: 0 auto">
+            <div id="playPro" class="determinate" style="width: 70%"></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

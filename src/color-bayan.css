@@ -1,0 +1,171 @@
+/* fallback */
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/materialicons/v38/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+#Bayan {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    user-select: none;
+}
+
+#keyr0 {
+    margin: 0 4vw 1vw 0;
+}
+
+#keyr1 {
+    margin: 0 0 1vw 3vw;
+}
+
+#keyr2 {
+    margin: 0 2vw 1vw 5vw;
+}
+
+#keyr3 {
+    margin: 0 6vw 1vw 8vw;
+}
+
+.gray {
+    background-color:  #bdc3c7;
+}
+
+.deep-gray {
+    background-color:  #2c3e50;
+}
+
+.green {
+    background-color: green;
+}
+
+#loading {
+    z-index: 999;
+    position: fixed;
+    background-color: rgba(255,255,255,0.8);
+    width: 90%;
+    height: 50%;
+    left: 5%;
+}
+
+.progress {
+    top: 50%;
+}
+
+.key {
+    width: 6vw;
+    height: 6vw;
+    margin-left: 0;
+    margin-right: 0.7vw;
+    position: relative;
+    border-radius: 0.5vw;
+        -moz-border-radius: 1vw; /* Old Firefox */
+}
+
+.playProgress {
+    width: 25%;
+    height: 35px;
+    background-color: white;
+    border: 2px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 5px #888888;
+}
+
+.keychar {
+    color: white;
+    position: absolute;
+    font-size: 1.7vw;
+    margin-left: 0.5vw;
+}
+
+.pitch {
+    color: white;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 2vw;
+    font-weight: bold;
+    text-align: center;
+    line-height: 6vw;
+}
+
+.box {
+  display: flex;
+  margin: 1vw 1vw 1vw 1vw;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+#Piano {
+    margin: 0 auto;
+}
+
+#piano-box {
+    margin: 0 auto;
+}
+
+#white-box {
+    display: flex;
+}
+
+#black-box {
+    display: flex;
+    margin-left: 1.2vw;
+    position: relative;
+    top: 3.6vw;
+}
+
+.white-key {
+    width: 1.8vw;
+    height: 6vw;
+    border: 0.5px groove;
+    border-radius: 0 0 4px 4px;
+        -moz-border-radius: 0 0 4px 4px; /* Old Firefox */
+}
+
+.black-key {
+    width: 1.2vw;
+    height: 3.6vw;
+    background-color: black;
+    margin-right: 0.6vw;
+    border-radius: 0 0 3px 3px;
+        -moz-border-radius: 0 0 3px 3px; /* Old Firefox */
+}
+
+.key-hidden {
+    visibility: hidden;
+    width: 1.2vw;
+    height: 3.6vw;
+    margin-right: 0.6vw;
+}
+
